@@ -1,6 +1,6 @@
 # NewAngularCli
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.6.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.0.
 
 ## Development server
 
@@ -27,13 +27,13 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## How best to use for your project
+# How to use this project
 
 (This section is from <https://github.com/NathanWalker/angular-seed-advanced>.)
 
-#### Setup
+### Setup
 
-*NOTE*: This project was created with: `ng new --skip-install --routing new-angular-cli`
+*NOTE*: This project was created with: `ng new new-angular-cli --skip-install --routing`
 
 *NOTE*: The following should be done first before you start making any changes and building out your project.
 
@@ -44,7 +44,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 5. `git push` - Go ahead and push up the initial project.
 6. Now you have `git` setup and ready to develop your app as well as merge in upstream changes in the future.
 
-#### Merging latest upstream changes
+### Merging latest upstream changes
 
 1. `git fetch upstream` - This will fetch latest `upstream`.
 2. `git merge upstream/master` - This will merge in upstream changes.
@@ -52,3 +52,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 4. Continue building your app.
 
 You can read more about [syncing a fork here](https://help.github.com/articles/syncing-a-fork/).
+
+### Upadating this project
+1. `ng new new-angular-cli --skip-install --routing --directory ngtemp` - Directory `ngtemp` should not exist before running this command.
+1. Add this whole section to the README in `ngtemp`.
+1. Delete everything in `new-angular-cli` *except* `.git` directory.
+1. Copy everything in `ngtemp` to `new-angular-cli` *except* the `.git` directory.
+1. git add and commit and push in `new-angular-cli`.

@@ -1,6 +1,6 @@
 # NewAngularCli
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
 
 ## Development server
 
@@ -45,15 +45,18 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 6. Now you have `git` setup and ready to develop your app as well as merge in upstream changes in the future.
 
 ### Merging latest upstream changes
-
+1. Update global angular cli to same version as in this project - <https://github.com/angular/angular-cli#updating-angular-cli>
 1. `git fetch upstream` - This will fetch latest `upstream`.
 2. `git merge upstream/master` - This will merge in upstream changes.
 3. Handle any conflicts to get latest upstream into your app.
+1. Optional: Delete `node_modules`
+1. `npm update`
 4. Continue building your app.
 
 You can read more about [syncing a fork here](https://help.github.com/articles/syncing-a-fork/).
 
 ### Upadating this project
+1. Update global angular cli - <https://github.com/angular/angular-cli#updating-angular-cli>
 1. `ng new new-angular-cli --skip-install --routing --directory ngtemp` - Directory `ngtemp` should not exist before running this command.
 1. Add this whole section to the README in `ngtemp`.
 1. Delete everything in `new-angular-cli` *except* `.git` directory.

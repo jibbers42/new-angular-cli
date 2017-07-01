@@ -49,9 +49,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 1. `git fetch upstream` - This will fetch latest `upstream`.
 2. `git merge upstream/master` - This will merge in upstream changes.
 3. Handle any conflicts to get latest upstream into your app.
-1. Optional: Delete `node_modules`
-1. `npm update`
-4. Continue building your app.
+1. Delete `node_modules`
+1. Optional: delete `package-lock.json` if it exists (or if it exists and you don't delete it, at least specifically update your local @angular/cli package `npm install --save-dev @angular/cli@latest`)
+1. Optional: run `npm outdated` and update
+1. `npm install`
+1. commit changes and continue building your app.
 
 You can read more about [syncing a fork here](https://help.github.com/articles/syncing-a-fork/).
 

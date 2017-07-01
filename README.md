@@ -1,6 +1,6 @@
 # NewAngularCli
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
 
 ## Development server
 
@@ -58,7 +58,7 @@ You can read more about [syncing a fork here](https://help.github.com/articles/s
 ### Upadating this project
 1. Update global angular cli - <https://github.com/angular/angular-cli#updating-angular-cli>
 1. `ng new new-angular-cli --skip-install --routing --directory ngtemp` - Directory `ngtemp` should not exist before running this command.
-1. Add this whole section to the README in `ngtemp`.
+1. Add this whole "How to use this project" section to the README in `ngtemp`.
 1. Delete everything in `new-angular-cli` *except* `.git` directory.
 1. Copy everything in `ngtemp` to `new-angular-cli` *except* the `.git` directory.
 1. git add and commit and push in `new-angular-cli`.

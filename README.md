@@ -1,6 +1,6 @@
 # NewAngularCli
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
 
 ## Development server
 
@@ -29,7 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # How to use this project
 
-(This section is from <https://github.com/NathanWalker/angular-seed-advanced>.)
+(This section heavily inspired by <https://github.com/NathanWalker/angular-seed-advanced>.)
 
 ### Setup
 

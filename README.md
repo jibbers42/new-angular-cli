@@ -49,6 +49,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 1. `git fetch upstream` - This will fetch latest `upstream`.
 2. `git merge upstream/master` - This will merge in upstream changes.
 3. Handle any conflicts to get latest upstream into your app.
+1. `rm -rf node_modules` - delete `node_modules` folder
 1. `npm install` (first do `git diff HEAD package.json` if you want to review version changes)
 1. commit changes and continue building your app.
 

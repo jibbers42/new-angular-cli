@@ -1,10 +1,10 @@
-import { NewAngularCliPage } from './app.po';
+import { AppPage } from './app.po';
 
 describe('new-angular-cli App', () => {
-  let page: NewAngularCliPage;
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new NewAngularCliPage();
+    page = new AppPage();
   });
 
   it('should display welcome message', () => {

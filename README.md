@@ -45,7 +45,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 6. Now you have `git` setup and ready to develop your app as well as merge in upstream changes in the future.
 
 ### Merging latest upstream changes
-1. Update global angular cli to same version as in this project - <https://github.com/angular/angular-cli#updating-angular-cli>
+1. Update global AND local angular cli to same version as in this project - <https://github.com/angular/angular-cli#updating-angular-cli>
 1. `git fetch upstream` - This will fetch latest `upstream`.
 2. `git merge upstream/master` - This will merge in upstream changes.
 3. Handle any conflicts to get latest upstream into your app.
